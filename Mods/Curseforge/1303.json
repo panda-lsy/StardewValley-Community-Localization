@@ -11,8 +11,14 @@
     "zh-CN": "示例简要描述",
     "source": "Biosheeper"
   },
+  "meta": {
+    "contributor": "sample, mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/wow/addons/project-1303",
+    "updatedAt": "2026-03-10T11:02:54.502Z"
+  },
   "dependencies": [
     {
+      "platform": "NexusMods",
       "id": "example-required-mod",
       "name": "Example Required Mod",
       "optional": false,
@@ -21,6 +27,7 @@
   ],
   "hardConflicts": [
     {
+      "platform": "NexusMods",
       "id": "example-conflict-mod",
       "name": "Example Conflict Mod",
       "reason": "同时启用会导致菜单崩溃"
@@ -28,14 +35,10 @@
   ],
   "functionalOverlaps": [
     {
+      "platform": "NexusMods",
       "id": "example-overlap-mod",
       "name": "Example Overlap Mod",
       "reason": "两者都修改同一功能"
     }
-  ],
-  "meta": {
-    "contributor": "sample",
-    "sourceUrl": "https://www.curseforge.com/",
-    "updatedAt": "2026-03-10T00:00:00Z"
-  }
+  ]
 }
