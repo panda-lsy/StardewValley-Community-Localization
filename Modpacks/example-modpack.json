@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entityType": "modpack",
+  "platform": "Curseforge",
+  "id": "example-modpack",
+  "name": {
+    "zh-CN": "示例整合包名称",
+    "source": "Example Modpack"
+  },
+  "description": {
+    "zh-CN": "示例整合包简介",
+    "source": "A sample modpack description"
+  },
+  "meta": {
+    "contributor": "sample",
+    "sourceUrl": "https://www.curseforge.com/",
+    "updatedAt": "2026-03-10T00:00:00Z"
+  }
+}

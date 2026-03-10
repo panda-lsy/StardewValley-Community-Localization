@@ -1,0 +1,109 @@
+name: localization-auto-pr
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create-pr:
+    if: contains(github.event.issue.title, '[Localization]') && contains(github.event.issue.body, 'svl-localization-payload:start')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Parse payload
+        id: parse
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            const match = body.match(/<!--\s*svl-localization-payload:start\s*-->[\s\S]*?```json\s*([\s\S]*?)```[\s\S]*?<!--\s*svl-localization-payload:end\s*-->/i);
+            if (!match) {
+              core.setFailed('Missing JSON payload block in issue body.');
+              return;
+            }
+
+            let payload;
+            try {
+              payload = JSON.parse(match[1]);
+            } catch (err) {
+              core.setFailed(`Invalid JSON payload: ${err.message}`);
+              return;
+            }
+
+            const entityType = String(payload.entityType || '').trim();
+            const platform = String(payload.platform || '').trim();
+            const idRaw = String(payload.id || '').trim();
+            const id = idRaw.replace(/[^a-zA-Z0-9._-]/g, '_');
+            if (!id) {
+              core.setFailed('Payload id is empty.');
+              return;
+            }
+
+            let filePath = '';
+            if (entityType === 'mod') {
+              if (!['Curseforge', 'NexusMods'].includes(platform)) {
+                core.setFailed('For mod entity, platform must be Curseforge or NexusMods.');
+                return;
+              }
+              filePath = `Mods/${platform}/${id}.json`;
+            } else if (entityType === 'modpack') {
+              if (platform !== 'Curseforge') {
+                core.setFailed('For modpack entity, platform must be Curseforge.');
+                return;
+              }
+              filePath = `Modpacks/${id}.json`;
+            } else if (entityType === 'collection') {
+              if (platform !== 'NexusMods') {
+                core.setFailed('For collection entity, platform must be NexusMods.');
+                return;
+              }
+              filePath = `Collections/${id}.json`;
+            } else {
+              core.setFailed(`Unsupported entityType: ${entityType}`);
+              return;
+            }
+
+            const fs = require('fs');
+            const path = require('path');
+            const fullPath = path.join(process.env.GITHUB_WORKSPACE, filePath);
+            fs.mkdirSync(path.dirname(fullPath), { recursive: true });
+            fs.writeFileSync(fullPath, JSON.stringify(payload, null, 2) + '\n', 'utf8');
+
+            core.setOutput('filePath', filePath);
+            core.setOutput('entityType', entityType);
+            core.setOutput('id', id);
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: ${{ steps.parse.outputs.filePath }}
+          commit-message: "chore(localization): update ${{ steps.parse.outputs.filePath }}"
+          branch: "automation/localization-${{ github.event.issue.number }}-${{ steps.parse.outputs.entityType }}-${{ steps.parse.outputs.id }}"
+          delete-branch: true
+          title: "chore(localization): ${{ steps.parse.outputs.entityType }} ${{ steps.parse.outputs.id }}"
+          body: |
+            Auto-generated from issue #${{ github.event.issue.number }}.
+
+            Source issue: ${{ github.event.issue.html_url }}
+
+      - name: Comment issue with PR link
+        if: steps.cpr.outputs.pull-request-number
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = '${{ steps.cpr.outputs.pull-request-number }}';
+            const prUrl = '${{ steps.cpr.outputs.pull-request-url }}';
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: `PR created automatically: #${prNumber}\n${prUrl}`
+            });

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entityType": "collection",
+  "platform": "NexusMods",
+  "id": "example-collection",
+  "name": {
+    "zh-CN": "示例 Collection 名称",
+    "source": "Example Collection"
+  },
+  "description": {
+    "zh-CN": "示例 Collection 简介",
+    "source": "A sample collection description"
+  },
+  "meta": {
+    "contributor": "sample",
+    "sourceUrl": "https://www.nexusmods.com/",
+    "updatedAt": "2026-03-10T00:00:00Z"
+  }
+}

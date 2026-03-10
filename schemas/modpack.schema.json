@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://svl.local/schemas/modpack.schema.json",
+  "title": "SVL Modpack Localization",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "entityType",
+    "platform",
+    "id",
+    "name",
+    "description"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "entityType": { "type": "string", "const": "modpack" },
+    "platform": { "type": "string", "const": "Curseforge" },
+    "id": { "type": "string", "minLength": 1 },
+    "name": {
+      "type": "object",
+      "required": ["zh-CN"],
+      "properties": {
+        "zh-CN": { "type": "string", "minLength": 1 },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "description": {
+      "type": "object",
+      "required": ["zh-CN"],
+      "properties": {
+        "zh-CN": { "type": "string", "minLength": 1 },
+        "source": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "contributor": { "type": "string" },
+        "sourceUrl": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
