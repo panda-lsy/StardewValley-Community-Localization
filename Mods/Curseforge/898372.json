@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "898372",
+  "name": {
+    "zh-CN": "SMAPI - Stardew Modding API",
+    "source": "SMAPI - Stardew Modding API"
+  },
+  "description": {
+    "zh-CN": "111",
+    "source": "The mod loader for Stardew Valley."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/utility/smapi",
+    "updatedAt": "2026-03-10T10:31:03.722Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
