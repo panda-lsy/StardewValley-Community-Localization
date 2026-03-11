@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "1482588",
+  "name": {
+    "zh-CN": "超级锻造",
+    "source": "Super Forge"
+  },
+  "description": {
+    "zh-CN": "不限次数的武器锻造，强化堆叠数目以及组合多种指环",
+    "source": "Unlimited weapon forging, stack enchantments and combine multiple rings"
+  },
+  "meta": {
+    "contributor": "",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/super-forge",
+    "updatedAt": "2026-03-11T15:01:10.378Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
