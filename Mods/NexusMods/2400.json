@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "NexusMods",
+  "id": "2400",
+  "name": {
+    "zh-CN": "SMAPI - Stardew Modding API",
+    "source": "SMAPI - Stardew Modding API"
+  },
+  "description": {
+    "zh-CN": "适用于星露谷物语的 Mod 加载器。",
+    "source": "The mod loader for Stardew Valley."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.nexusmods.com/stardewvalley",
+    "updatedAt": "2026-03-11T11:07:49.112Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
