@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "NexusMods",
+  "id": "859",
+  "name": {
+    "zh-CN": "更好的畜牧",
+    "source": "Better Ranching"
+  },
+  "description": {
+    "zh-CN": "防止挤奶/剪毛操作失败，并添加提示标识，让你一眼就知道何时可以抚摸宠物、给动物挤奶或剪毛。",
+    "source": "Prevents failing milking/shearing attempts and adds an indicator when pets and animals can be petted, milked, or sheared."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.nexusmods.com/stardewvalley/mods/859",
+    "updatedAt": "2026-03-12T11:41:58.625Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
