@@ -79,6 +79,17 @@ jobs:
             core.setOutput('filePath', filePath);
             core.setOutput('entityType', entityType);
             core.setOutput('id', id);
+            const zhName = String(payload?.name?.['zh-CN'] || '').trim();
+            const sourceName = String(payload?.name?.source || '').trim();
+            let prTitle = `localization(${entityType}): ${platform} ${id}`;
+            if (zhName && sourceName) {
+              prTitle = `localization(${entityType}): ${zhName} - ${sourceName}`;
+            } else if (zhName) {
+              prTitle = `localization(${entityType}): ${zhName}`;
+            } else if (sourceName) {
+              prTitle = `localization(${entityType}): ${sourceName}`;
+            }
+            core.setOutput('prTitle', prTitle);
 
       - name: Create Pull Request
         id: cpr
@@ -88,7 +99,7 @@ jobs:
           commit-message: "chore(localization): update ${{ steps.parse.outputs.filePath }}"
           branch: "automation/localization-${{ github.event.issue.number }}-${{ steps.parse.outputs.entityType }}-${{ steps.parse.outputs.id }}"
           delete-branch: true
-          title: "chore(localization): ${{ steps.parse.outputs.entityType }} ${{ steps.parse.outputs.id }}"
+          title: "${{ steps.parse.outputs.prTitle }}"
           body: |
             Auto-generated from issue #${{ github.event.issue.number }}.
 
