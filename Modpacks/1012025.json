@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entityType": "modpack",
+  "platform": "Curseforge",
+  "id": "1012025",
+  "name": {
+    "zh-CN": "温馨小居 🍂 静享治愈时光",
+    "source": " Cozy Cottage 𝒻𝑜𝓇 𝓉𝒽𝒶𝓉 𝒱𝒾𝒷𝑒🍂ㅤㅤ"
+  },
+  "description": {
+    "zh-CN": "轻量级田园风 𝓂𝑜𝒹𝓅𝒶𝒸𝓀，专注于打造赏心悦目的视觉与舒适的游戏体验，汇聚 Curseforge 的精选模组 | 艺术创作：leyalluna",
+    "source": "ℒ𝒾𝑔𝒽𝓉 𝒸𝑜𝓉𝓉𝒶𝑔𝑒𝒸𝑜𝓇𝑒 𝓂𝑜𝒹𝓅𝒶𝒸𝓀 f͏o͏c͏u͏s͏e͏d͏ o͏n͏ a͏ a͏e͏s͏t͏h͏e͏t͏i͏c͏a͏l͏l͏y͏ p͏l͏e͏a͏s͏a͏n͏t͏ g͏a͏m͏e͏p͏l͏a͏y͏ with t͏h͏e͏ b͏e͏s͏t͏ o͏u͏t͏ o͏f͏ c͏u͏r͏s͏e͏f͏o͏r͏g͏e͏ | leah art by: leyalluna"
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/modpacks/the-cozy-cottage-modpack",
+    "updatedAt": "2026-03-12T02:44:04.031Z"
+  }
+}
