@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "898372",
+  "name": {
+    "zh-CN": "SMAPI - Stardew Modding API",
+    "source": "SMAPI - Stardew Modding API"
+  },
+  "description": {
+    "zh-CN": "适用于星露谷物语的 Mod 加载器。",
+    "source": "The mod loader for Stardew Valley."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/utility/smapi",
+    "updatedAt": "2026-03-12T10:39:39.277Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
