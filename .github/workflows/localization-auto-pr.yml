@@ -81,22 +81,28 @@ jobs:
             core.setOutput('id', id);
             const zhName = String(payload?.name?.['zh-CN'] || '').trim();
             const sourceName = String(payload?.name?.source || '').trim();
-            let prTitle = `localization(${entityType}): ${platform} ${id}`;
+            const normalizeName = (value) => String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
+            let nameLabel = `${platform} ${id}`;
             if (zhName && sourceName) {
-              prTitle = `localization(${entityType}): ${zhName} - ${sourceName}`;
+              nameLabel = normalizeName(zhName) === normalizeName(sourceName)
+                ? zhName
+                : `${zhName} - ${sourceName}`;
             } else if (zhName) {
-              prTitle = `localization(${entityType}): ${zhName}`;
+              nameLabel = zhName;
             } else if (sourceName) {
-              prTitle = `localization(${entityType}): ${sourceName}`;
+              nameLabel = sourceName;
             }
+            const prTitle = `localization(${entityType}): update ${filePath}`;
+            const commitMessage = `localization(${entityType}): ${nameLabel}`;
             core.setOutput('prTitle', prTitle);
+            core.setOutput('commitMessage', commitMessage);
 
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
           add-paths: ${{ steps.parse.outputs.filePath }}
-          commit-message: "chore(localization): update ${{ steps.parse.outputs.filePath }}"
+          commit-message: "${{ steps.parse.outputs.commitMessage }}"
           branch: "automation/localization-${{ github.event.issue.number }}-${{ steps.parse.outputs.entityType }}-${{ steps.parse.outputs.id }}"
           delete-branch: true
           title: "${{ steps.parse.outputs.prTitle }}"
