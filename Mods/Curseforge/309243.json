@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "309243",
+  "name": {
+    "zh-CN": "Content Patcher (内容加载器)",
+    "source": "Content Patcher"
+  },
+  "description": {
+    "zh-CN": "加载可改变游戏数据、地图和图像的内容包，无需替换XNB文件。",
+    "source": "Load content packs that change the game's data, maps, and images without replacing XNB files."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/content-patcher",
+    "updatedAt": "2026-03-12T12:56:45.860Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
