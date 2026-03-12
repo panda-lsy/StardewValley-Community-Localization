@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entityType": "collection",
+  "platform": "NexusMods",
+  "id": "tckf0m",
+  "name": {
+    "zh-CN": "星露谷物语：超级扩展",
+    "source": "Stardew Valley VERY Expanded"
+  },
+  "description": {
+    "zh-CN": "已更新至 1.6.15 版本，专为在线合作与资深单人玩家打造。安装简便，自带配置选项。星露谷的故事将延伸至鹈鹕镇之外——本整合包在保留原版风味的基础上，新增了地点与内容，让你的农场生活更加丰富多彩。",
+    "source": "Updated for 1.6.15. Built for online co-op play and experienced solo players. Easy install, includes configuration. The story of Stardew Valley extends outside of Pelican Town. This collection adds new locations and more while keeping a vanilla feel."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.nexusmods.com/games/stardewvalley/collections/tckf0m",
+    "updatedAt": "2026-03-12T08:51:06.531Z"
+  }
+}
