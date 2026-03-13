@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "NexusMods",
+  "id": "23663",
+  "name": {
+    "zh-CN": "自动丢弃",
+    "source": "Auto Trasher"
+  },
+  "description": {
+    "zh-CN": "让你可以自动将不需要的物品送入垃圾桶。",
+    "source": "Allows players to automatically send unwanted items to their trash bin."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.nexusmods.com/stardewvalley/mods/23663",
+    "updatedAt": "2026-03-13T05:17:13.537Z"
+  },
+  "dependencies": [
+    {
+      "platform": "NexusMods",
+      "id": "5098",
+      "name": "Generic Mod Config Menu (GMCM)",
+      "optional": true,
+      "note": ""
+    }
+  ],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
