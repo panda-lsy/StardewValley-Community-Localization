@@ -48,8 +48,8 @@ jobs:
 
             let filePath = '';
             if (entityType === 'mod') {
-              if (!['Curseforge', 'NexusMods'].includes(platform)) {
-                core.setFailed('For mod entity, platform must be Curseforge or NexusMods.');
+              if (!['Curseforge', 'NexusMods', 'UniqueID'].includes(platform)) {
+                core.setFailed('For mod entity, platform must be Curseforge, NexusMods or UniqueID.');
                 return;
               }
               filePath = `Mods/${platform}/${id}.json`;
