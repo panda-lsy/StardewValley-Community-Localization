@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "990459",
+  "name": {
+    "zh-CN": "骷髅洞穴电梯",
+    "source": "Skull Cavern Elevator"
+  },
+  "description": {
+    "zh-CN": "本 Mod 为骷髅洞穴添加了电梯。",
+    "source": "This mod adds an elevator to the Skull Cavern."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/skull-cavern-elevator",
+    "updatedAt": "2026-03-16T08:03:18.101Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
