@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "867150",
+  "name": {
+    "zh-CN": "通用模组配置菜单",
+    "source": "Generic Mod Config Menu"
+  },
+  "description": {
+    "zh-CN": "在游戏中添加一个界面，方便你编辑其他模组的配置选项。",
+    "source": "Adds an in-game UI to edit other mods' config options."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/generic-mod-config-menu",
+    "updatedAt": "2026-03-16T07:56:34.462Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
