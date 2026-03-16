@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "867152",
+  "name": {
+    "zh-CN": "SpaceCore (空间核心)",
+    "source": "SpaceCore"
+  },
+  "description": {
+    "zh-CN": "这是一个基础框架模组，被其他一些模组所使用。",
+    "source": "A framework mod used by some of my other mods."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/spacecore",
+    "updatedAt": "2026-03-16T08:01:59.102Z"
+  },
+  "dependencies": [
+    {
+      "platform": "Curseforge",
+      "id": "309243",
+      "name": "Content Patcher",
+      "optional": false,
+      "note": "Required Dependency"
+    }
+  ],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
