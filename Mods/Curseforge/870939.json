@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "870939",
+  "name": {
+    "zh-CN": "自定义伙伴",
+    "source": "Custom Companions"
+  },
+  "description": {
+    "zh-CN": "一个用于创建自定义实体的框架，你可以让这些实体生成在地图上，或是在星露谷中跟随你四处走动。",
+    "source": "Framework for creating custom entities that can be spawned on maps or follow you around in Stardew Valley."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/custom-companions",
+    "updatedAt": "2026-03-16T08:00:03.086Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
