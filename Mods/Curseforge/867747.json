@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "867747",
+  "name": {
+    "zh-CN": "更大的背包",
+    "source": "Bigger Backpack"
+  },
+  "description": {
+    "zh-CN": "只需 50,000g，就能在皮埃尔的商店购买到容量更大的背包！",
+    "source": "Buy a bigger backpack at Pierre's for only 50,000g!"
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/bigger-backpack",
+    "updatedAt": "2026-03-16T08:05:07.973Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
