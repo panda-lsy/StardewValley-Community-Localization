@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "992849",
+  "name": {
+    "zh-CN": "拖拉机",
+    "source": "Tractor Mod"
+  },
+  "description": {
+    "zh-CN": "购买一台拖拉机，更高效地照料作物、清理树枝和石块等等。",
+    "source": "Buy a tractor to more efficiently work with crops, clear twigs and rocks, etc."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/tractor-mod",
+    "updatedAt": "2026-03-16T07:54:56.086Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
