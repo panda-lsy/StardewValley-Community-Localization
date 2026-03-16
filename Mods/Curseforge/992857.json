@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "992857",
+  "name": {
+    "zh-CN": "自动化",
+    "source": "Automate"
+  },
+  "description": {
+    "zh-CN": "将箱子放在机器（如熔炉或宝石复制机）旁边，机器便会自动从箱子中取出原料，并将加工完成的成品放回箱中。你还可以通过箱子连接多台机器，让它们联动工作。",
+    "source": "Place a chest next to a machine (like a furnace or crystalarium), and the machine will automatically pull raw items from the chest and push processed items into it. Connect multiple machines with a chest to link them."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/automate",
+    "updatedAt": "2026-03-16T07:58:30.742Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
