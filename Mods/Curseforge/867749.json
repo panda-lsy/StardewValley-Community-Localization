@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "867749",
+  "name": {
+    "zh-CN": "物品数据加载器",
+    "source": "Json Assets"
+  },
+  "description": {
+    "zh-CN": "让内容包能够向游戏中添加自定义内容。",
+    "source": "Lets content packs add custom content to the game."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/json-assets",
+    "updatedAt": "2026-03-16T08:04:11.462Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
