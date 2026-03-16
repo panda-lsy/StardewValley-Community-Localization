@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "868831",
+  "name": {
+    "zh-CN": "亲密互动",
+    "source": "Hugs and Kisses"
+  },
+  "description": {
+    "zh-CN": "让你能够亲吻恋人与配偶、拥抱朋友，NPC 配偶之间可以亲吻，NPC 亲属之间可以拥抱，NPC 配偶也能拥抱室友等等。同时提供亲吻和拥抱的自定义选项。",
+    "source": "Lets players kiss girlfriends and boyfriends and hug friends, NPC spouses kiss each other, NPC relatives hug each other, NPC spouses hug roommates, etc. Also provides kiss and hug customization."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/hugs-and-kisses",
+    "updatedAt": "2026-03-16T08:10:24.533Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
