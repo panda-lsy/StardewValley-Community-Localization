@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "1011759",
+  "name": {
+    "zh-CN": "肖像背景：变幻天空 - 测试版",
+    "source": "Portraited Changing Skies - Beta"
+  },
+  "description": {
+    "zh-CN": "根据当前天气和时间改变肖像背景，同时保留原版的肖像框。这是 Doragoun 原作的 Changing Skies 模组的替代版本。",
+    "source": "Changes the portrait backgrounds according to the current weather and time without changing the vanilla portrait frame. This is an alternative version of Changing Skies, originally made by Doragoun."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/portraited-changing-skies",
+    "updatedAt": "2026-03-16T08:09:11.478Z"
+  },
+  "dependencies": [
+    {
+      "platform": "Curseforge",
+      "id": "309243",
+      "name": "Content Patcher",
+      "optional": false,
+      "note": "Required Dependency"
+    }
+  ],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
