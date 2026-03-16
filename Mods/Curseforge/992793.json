@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "992793",
+  "name": {
+    "zh-CN": "信息查询",
+    "source": "Lookup Anything"
+  },
+  "description": {
+    "zh-CN": "按 F1 即可查看光标所指任何内容的实时信息：了解村民最爱的礼物、作物何时成熟、围栏还能使用多久、你的动物为什么不开心，以及更多详情。",
+    "source": "See live info about whatever's under your cursor when you press F1. Learn a villager's favourite gifts, when a crop will be ready to harvest, how long a fence will last, why your farm animals are unhappy, and more."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/lookup-anything",
+    "updatedAt": "2026-03-16T07:53:51.782Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
