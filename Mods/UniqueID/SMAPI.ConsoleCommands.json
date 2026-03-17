@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "UniqueID",
+  "id": "SMAPI.ConsoleCommands",
+  "name": {
+    "zh-CN": "控制台命令",
+    "source": "Console Commands"
+  },
+  "description": {
+    "zh-CN": "为 SMAPI 添加控制台命令，让你能够直接操控游戏。",
+    "source": "Adds SMAPI console commands that let you manipulate the game."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "",
+    "updatedAt": "2026-03-13T11:14:39.880Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}

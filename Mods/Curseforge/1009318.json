@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "1009318",
+  "name": {
+    "zh-CN": "FS - SH的动物与神话生物包",
+    "source": "FS - SH's Animals and Myths Pack"
+  },
+  "description": {
+    "zh-CN": "为你的游戏添加与动物和神话生物相关的物品，适用于 Fashion Sense（时尚风范）框架。",
+    "source": "Adds animal-related and mythical creatures stuff to your game for the Fashion Sense framework."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/fs-shs-animals-and-myths-pack",
+    "updatedAt": "2026-03-16T08:07:37.253Z"
+  },
+  "dependencies": [
+    {
+      "platform": "Curseforge",
+      "id": "870933",
+      "name": "Fashion Sense",
+      "optional": false,
+      "note": "Required Dependency"
+    }
+  ],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}

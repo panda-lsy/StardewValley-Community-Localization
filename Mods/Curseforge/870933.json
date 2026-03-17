@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "870933",
+  "name": {
+    "zh-CN": "时尚风范",
+    "source": "Fashion Sense"
+  },
+  "description": {
+    "zh-CN": "一个功能框架，支持更大的配饰、发型、帽子、衬衫、袖子、裤子、鞋子，同时提供动画效果等更多功能。",
+    "source": "Framework which allows for bigger accessories, hairstyles, hats, shirts, sleeves, pants and shoes, as well as animation support and more."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/fashion-sense",
+    "updatedAt": "2026-03-14T16:21:10.150Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
