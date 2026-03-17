@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "1480722",
+  "name": {
+    "zh-CN": "[AT] Kehaan的避雷针变种",
+    "source": "[AT] Kehaan Lightning Rod Variants"
+  },
+  "description": {
+    "zh-CN": "使用纹理替换（Alternative Textures）框架，为避雷针添加了 10 种独特的改色方案。你可以用油漆桶工具在粉色、红色、绿色、蓝色等多种风格之间自由切换。",
+    "source": "Adds 10 unique recolors for the Lightning Rod using Alternative Textures. Use the paint bucket to switch between styles like Pink, Red, Green, Blue, and more."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/at-kehaan-lightning-rod-variants",
+    "updatedAt": "2026-03-17T05:51:24.592Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
