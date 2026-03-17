@@ -38,6 +38,8 @@ jobs:
       - name: Commit and push changes
         if: github.event_name != 'pull_request'
         run: |
+          BRANCH_NAME="${GITHUB_HEAD_REF:-${GITHUB_REF_NAME}}"
+          git checkout -B "$BRANCH_NAME"
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add stats.json
@@ -45,5 +47,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "📊 Update localization statistics [skip ci]"
-            git push origin HEAD:${{ github.head_ref || github.ref_name }}
+            git push origin "HEAD:$BRANCH_NAME"
           fi
