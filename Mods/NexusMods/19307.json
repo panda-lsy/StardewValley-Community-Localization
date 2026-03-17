@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "NexusMods",
+  "id": "19307",
+  "name": {
+    "zh-CN": "派大星小马",
+    "source": "Horse to Patrick Star"
+  },
+  "description": {
+    "zh-CN": "把你的马变成派大星",
+    "source": "把你的马变成派大星！Changes your horse into Patrick Star!"
+  },
+  "meta": {
+    "contributor": "阡别",
+    "sourceUrl": "https://www.nexusmods.com/stardewvalley/mods/19307",
+    "updatedAt": "2026-03-17T04:59:38.836Z"
+  },
+  "dependencies": [
+    {
+      "platform": "NexusMods",
+      "id": "9246",
+      "name": "Alternative Textures",
+      "optional": false,
+      "note": ""
+    },
+    {
+      "platform": "NexusMods",
+      "id": "1915",
+      "name": "Content Patcher",
+      "optional": false,
+      "note": ""
+    }
+  ],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
