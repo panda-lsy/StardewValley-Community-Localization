@@ -1,0 +1,46 @@
+name: Update Localization Statistics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Mods/**/*.json"
+      - "Modpacks/**/*.json"
+      - "Collections/**/*.json"
+  pull_request:
+    branches: [main]
+    paths:
+      - "Mods/**/*.json"
+      - "Modpacks/**/*.json"
+      - "Collections/**/*.json"
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate statistics
+        run: node .github/scripts/count-localization.mjs
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add stats.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "📊 Update localization statistics [skip ci]"
+            git push
+          fi
