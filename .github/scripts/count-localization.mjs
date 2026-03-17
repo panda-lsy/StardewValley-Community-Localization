@@ -162,13 +162,17 @@ async function main() {
   details.collections.forEach(c => console.log(`  - [${c.platform}] ${c.name} (by ${c.contributor})`));
 
   // 输出JSON格式供API使用
+  // 转换贡献者 Set 为数组
+  const contributorsList = Array.from(stats.contributors).sort();
+
   console.log("\n📦 JSON 输出:");
   console.log(JSON.stringify({
     mods: stats.mods.total,
     modpacks: stats.modpacks,
     collections: stats.collections,
     total: stats.total,
-    contributors: stats.contributors.size,
+    contributors: contributorsList,
+    contributorCount: contributorsList.length,
     breakdown: {
       mods: stats.mods,
       modpacks: stats.modpacks,
@@ -185,7 +189,8 @@ async function main() {
     modpacks: stats.modpacks,
     collections: stats.collections,
     total: stats.total,
-    contributors: stats.contributors.size,
+    contributors: contributorsList,
+    contributorCount: contributorsList.length,
     breakdown: {
       mods: stats.mods,
       modpacks: stats.modpacks,
