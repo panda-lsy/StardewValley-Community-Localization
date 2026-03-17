@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "1312550",
+  "name": {
+    "zh-CN": "自定义坐骑",
+    "source": "Custom Mounts"
+  },
+  "description": {
+    "zh-CN": "让你能够创建自定义坐骑，包括自定义马厩、外观纹理、大小、速度、马笛、胡萝卜以及足迹声。",
+    "source": "Lets you create custom mounts with custom stable, texture, size, speed, flute, carrot, and footprint sounds."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/custom-mounts",
+    "updatedAt": "2026-03-17T04:53:40.192Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
