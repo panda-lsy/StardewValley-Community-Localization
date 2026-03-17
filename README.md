@@ -4,7 +4,7 @@
 [![整合包数目](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpanda-lsy%2FStardewValley-Community-Localization%2Fmain%2Fstats.json&query=%24.modpacks&label=Modpacks&color=green)](https://github.com/panda-lsy/StardewValley-Community-Localization/tree/main/Modpacks)
 [![集合数目](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpanda-lsy%2FStardewValley-Community-Localization%2Fmain%2Fstats.json&query=%24.collections&label=Collections&color=purple)](https://github.com/panda-lsy/StardewValley-Community-Localization/tree/main/Collections)
 [![总资源数](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpanda-lsy%2FStardewValley-Community-Localization%2Fmain%2Fstats.json&query=%24.total&label=Total%20Entries&color=orange)](https://github.com/panda-lsy/StardewValley-Community-Localization)
-[![贡献者](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpanda-lsy%2FStardewValley-Community-Localization%2Fmain%2Fstats.json&query=%24.contributors&label=Contributors&color=red)](https://github.com/panda-lsy/StardewValley-Community-Localization/graphs/contributors)
+[![贡献者](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpanda-lsy%2FStardewValley-Community-Localization%2Fmain%2Fstats.json&query=%24.contributorCount&label=Contributors&color=red)](https://github.com/panda-lsy/StardewValley-Community-Localization/graphs/contributors)
 
 用于存储星露谷物语社区资源的本地化覆盖信息。SVL 可接入，其他工具也可复用。
 
