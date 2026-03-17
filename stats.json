@@ -1,18 +1,18 @@
 {
-  "mods": 24,
+  "mods": 25,
   "modpacks": 1,
   "collections": 1,
-  "total": 26,
-  "contributors": 2,
+  "total": 27,
+  "contributors": 3,
   "breakdown": {
     "mods": {
       "curseforge": 19,
-      "nexusmods": 4,
+      "nexusmods": 5,
       "uniqueid": 1,
-      "total": 24
+      "total": 25
     },
     "modpacks": 1,
     "collections": 1
   },
-  "generatedAt": "2026-03-17T05:33:48.467Z"
+  "generatedAt": "2026-03-17T05:34:23.953Z"
 }
