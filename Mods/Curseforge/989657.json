@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "Curseforge",
+  "id": "989657",
+  "name": {
+    "zh-CN": "自动采集",
+    "source": "Auto Forager"
+  },
+  "description": {
+    "zh-CN": "让你在路过灌木丛和树木时自动摇晃它们，收集掉落物。",
+    "source": "A mod that allows players to automatically shake bushes and trees as they walk by them"
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/mods/auto-forager",
+    "updatedAt": "2026-03-16T08:06:17.397Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": []
+}
