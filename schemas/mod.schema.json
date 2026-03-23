@@ -74,6 +74,19 @@
         "additionalProperties": true
       }
     },
+    "localizedMods": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "reason": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
     "meta": {
       "type": "object",
       "properties": {
