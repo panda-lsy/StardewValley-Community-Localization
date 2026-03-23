@@ -1,8 +1,8 @@
 {
-  "mods": 25,
+  "mods": 26,
   "modpacks": 1,
   "collections": 1,
-  "total": 27,
+  "total": 28,
   "contributors": [
     "mc_shengxia",
     "阡别"
@@ -11,12 +11,12 @@
   "breakdown": {
     "mods": {
       "curseforge": 19,
-      "nexusmods": 5,
+      "nexusmods": 6,
       "uniqueid": 1,
-      "total": 25
+      "total": 26
     },
     "modpacks": 1,
     "collections": 1
   },
-  "generatedAt": "2026-03-17T06:08:04.076Z"
+  "generatedAt": "2026-03-23T13:03:14.908Z"
 }
