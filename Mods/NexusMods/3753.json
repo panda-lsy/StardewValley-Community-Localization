@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "entityType": "mod",
+  "platform": "NexusMods",
+  "id": "3753",
+  "name": {
+    "zh-CN": "星露谷物语：扩展（SVE）",
+    "source": "Stardew Valley Expanded"
+  },
+  "description": {
+    "zh-CN": "《星露谷物语：扩展》是 ConcernedApe 原作的一款粉丝自制扩展 Mod。本 Mod 新增了 28 位 NPC、58 个地点、278 个角色事件、43 种鱼类，并对原版区域进行了重新构想，同时包含三张农场地图、一张反映所有变化的全新世界地图，以及新增的音乐、任务线、物品、作物、节日和大量其他内容！",
+    "source": "Stardew Valley Expanded is a fanmade expansion for ConcernedApe's Stardew Valley. This mod adds 28 new NPCs,  58 locations, 278 character events, 43 fish, reimagined vanilla areas, three farm maps, a reimagined world map reflecting all changes, new music, questlines, objects, crops, festivals, and many miscellaneous additions!"
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.nexusmods.com/stardewvalley/mods/3753",
+    "updatedAt": "2026-03-23T12:59:55.917Z"
+  },
+  "dependencies": [],
+  "hardConflicts": [],
+  "functionalOverlaps": [],
+  "localizedMods": [
+    {
+      "platform": "NexusMods",
+      "id": "10342",
+      "name": "Stardew Valley Expanded - Chinese",
+      "reason": "SVE 汉化"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "28252",
+      "name": "Frontier Farm - CHS",
+      "reason": "边境农场汉化"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "29161",
+      "name": "Frontier Farm1.6.9Chinese Translation",
+      "reason": "边境农场汉化 1.6.9"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "31795",
+      "name": "Grandpa's Farm Chinese translation",
+      "reason": "爷爷的农场汉化"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "35661",
+      "name": "Grampleton Fields - Chinese",
+      "reason": "格兰普顿平原"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "23445",
+      "name": "Grampleton Fields CN",
+      "reason": "格兰普尔"
+    },
+    {
+      "platform": "NexusMods",
+      "id": "11209",
+      "name": "Stardew Valley Expanded-image translation-Chinese",
+      "reason": "图片汉化"
+    }
+  ]
+}
