@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "entityType": "modpack",
+  "platform": "Curseforge",
+  "id": "1586754",
+  "name": {
+    "zh-CN": "Pokehaan Dew",
+    "source": "Pokehaan Dew"
+  },
+  "description": {
+    "zh-CN": "Pokehaan Dew 将 Pokehaan 的体验带入《星露谷物语》。本整合包灵感来自 Pokehaan Craft Minecraft 整合包，基于 Morning Dew 构建，以 Pelipper Town 作为主要玩法模组，并加入 QoL 便捷性优化功能与大量 Kehaan 自定义内容。",
+    "source": "Pokehaan Dew brings the Pokehaan experience to Stardew Valley. Inspired by the Pokehaan Craft Minecraft modpacks and built on Morning Dew, it uses Pelipper Town as its main gameplay mod alongside QoL features and a huge collection of custom Kehaan content."
+  },
+  "meta": {
+    "contributor": "mc_shengxia",
+    "sourceUrl": "https://www.curseforge.com/stardewvalley/modpacks/pokehaan-dew",
+    "updatedAt": "2026-09-13T17:32:32.941Z"
+  }
+}
