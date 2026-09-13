@@ -1,8 +1,8 @@
 {
   "mods": 26,
-  "modpacks": 1,
+  "modpacks": 2,
   "collections": 1,
-  "total": 28,
+  "total": 29,
   "contributors": [
     "mc_shengxia",
     "阡别"
@@ -15,8 +15,8 @@
       "uniqueid": 1,
       "total": 26
     },
-    "modpacks": 1,
+    "modpacks": 2,
     "collections": 1
   },
-  "generatedAt": "2026-03-23T13:03:14.908Z"
+  "generatedAt": "2026-09-13T17:47:35.571Z"
 }
